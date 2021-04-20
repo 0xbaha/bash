@@ -1,0 +1,2 @@
+# bash
+Kumpulan script bash.
