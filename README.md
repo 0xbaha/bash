@@ -1,9 +1,9 @@
 # Catatan Bash
-!- [GitHub repo size](https://img.shields.io/github/repo-size/aceX20/bash)
-!- [GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aceX20/bash)
-!- [GitHub top language](https://img.shields.io/github/languages/top/aceX20/bash)
-!- [GitHub last commit](https://img.shields.io/github/last-commit/aceX20/bash)
-!- [GitHub](https://img.shields.io/github/license/aceX20/bash)
+![GitHub repo size](https://img.shields.io/github/repo-size/aceX20/bash)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/aceX20/bash)
+![GitHub top language](https://img.shields.io/github/languages/top/aceX20/bash)
+![GitHub last commit](https://img.shields.io/github/last-commit/aceX20/bash)
+![GitHub](https://img.shields.io/github/license/aceX20/bash)
 
 ## Online Bash Compiler
 - [Ideone](https://www.ideone.com/l/bash)
@@ -29,8 +29,8 @@ A collection of bash scripts to install apps on Ubuntu
     - [Official Website](https://www.spotify.com/)
     - [Tutorial](https://www.spotify.com/id/download/linux/)
 - Tor Browser
-    - [Official Website](https://www.torproject.org
+    - [Official Website](https://www.torproject.org)
     - [Tutorial](https://www.linuxbabe.com/desktop-linux/install-tor-browser-on-ubuntu-16-04-via-ppa)
 - VMware
-    - [Official Website](https://www.vmware.com
-    - [Tutorial](https://www.liberiangeek.net/2014/12/install-vmware-workstation-11-ubuntu-14-10/
+    - [Official Website](https://www.vmware.com)
+    - [Tutorial](https://www.liberiangeek.net/2014/12/install-vmware-workstation-11-ubuntu-14-10/)
