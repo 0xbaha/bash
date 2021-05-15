@@ -6,6 +6,12 @@ Salin kunci publik ke remote server
 ssh-copy-id USERNAME@REMOTE_HOST
 ```
 
+Cara lain:
+
+Buat file `~/.ssh/authorized_keys` di remote server, kemudian copy-paste Public Key (local computer).
+
+Gunakan editor `nano` daripada `vi`. 
+
 ## Disabling Password Authentication
 Ubah file `/etc/ssh/sshd_config` di remote server
 
@@ -23,7 +29,6 @@ menjadi:
 
 ```
 PasswordAuthentication no
-ChallengeResponseAuthentication no
 ```
 
 Kemudian
