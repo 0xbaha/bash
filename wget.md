@@ -20,6 +20,12 @@ wget -i your_list
 wget -b -i your_list
 ```
 
+### Kill background process
+Ref: [link](https://stackoverflow.com/a/3410742/4874355)
+```
+pkill -9 wget
+```
+
 ### Actual name
 ```
 wget --content-disposition https://www.syntevo.com/downloads/smartgit/smartgit-20_1_2.deb
