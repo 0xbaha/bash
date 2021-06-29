@@ -12,16 +12,19 @@ wget -r -l1 -A.pdf http://www.example.com/page-with-pdfs.htm
 
 ### Files from a List
 ```
-wget -i your_list
+wget -i your_list.txt
 ```
 
 ### Files from a List (Background Process)
 ```
-wget -b -i your_list
+wget -b -i your_list.txt
+```
+Continue/resume broken download. [[1]](https://www.cyberciti.biz/tips/wget-resume-broken-download.html) 
+```
+wget -c -b -i your_list.txt
 ```
 
-### Kill background process
-Ref: [link](https://stackoverflow.com/a/3410742/4874355)
+### Kill background process [[2]](https://stackoverflow.com/a/3410742/4874355)
 ```
 pkill -9 wget
 ```
