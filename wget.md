@@ -19,12 +19,19 @@ wget -i your_list.txt
 ```
 wget -b -i your_list.txt
 ```
-Continue/resume broken download. [[1]](https://www.cyberciti.biz/tips/wget-resume-broken-download.html) 
+
+#### Continue/resume broken download [[1]](https://www.cyberciti.biz/tips/wget-resume-broken-download.html) 
 ```
 wget -c -b -i your_list.txt
 ```
 
-### Kill background process [[2]](https://stackoverflow.com/a/3410742/4874355)
+#### User Agent in Wget [[2]](https://www.networkinghowtos.com/howto/change-the-user-agent-in-wget/)
+Ketika dapat mengunduh melalui browser, tetapi gagal saat menggunakan `wget`.
+```
+wget -d -b -i -U "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" "https://DOMAIN.NAM/SUB-URL/EXAMPLE-FILE-WILL-BE-DOWNLOAD.iso?md5=klFg9hj-jcWcIDkYCRKs8Q&expires=1627569342"
+```
+
+### Kill background process [[3]](https://stackoverflow.com/a/3410742/4874355)
 ```
 pkill -9 wget
 ```
