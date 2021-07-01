@@ -3,5 +3,5 @@
 Mengompres setiap file/folder menjadi file zip terpisah.
 
 ```
-for file in *; do zip ${file%.*}.zip $file; done
+for i in *; do zip -r ${i%.*}.zip $i; done
 ```
