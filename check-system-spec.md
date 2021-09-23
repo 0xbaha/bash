@@ -1,13 +1,18 @@
 # Check System Spec
 
-## Command
+## Ubuntu Server
+
+### Command
 
 - `lscpu` list CPU and processor info
-- `hwinfo` generic hardware information
 - `lspci` PCI busses, including graphics card, network adapter
 - `lsblk` list block devices (storate and partitions)
 - `df -h` disk free
 - `free -h` total, free, used RAM
+
+### Not Default Installed
+
+- `hwinfo` generic hardware information
 
 
 ## Reading Materials
